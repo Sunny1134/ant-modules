@@ -8,5 +8,9 @@ export const routers: Array<RouteRecordRaw> = [
     { path: '/test/select_cascade', name: 'TestSelectCascade', component: () => import('./test/SelectCascade.vue') },
     { path: '/test/form', name: 'TestForm', component: () => import('./test/Form.vue') },
     { path: '/test/table', name: 'TestTable', component: () => import('./test/Table.vue') },
-    { path: '/test/ace-editor', name: 'TestAceEditor', component: () => import('./test/AceEditor.vue') },
+    { path: '/test/json-editor', name: 'TestJsonEditor', component: () => import('./test/JsonEditor.vue') },
+    { path: '/test/card-rest', name: 'TestRestCard', component: () => import('./test/CardRest.vue') },
+    { path: '/test/select-svg-icon', name: 'SelectSvgIcon', component: () => import('./test/SelectSvgIcon.vue') },
+    { path: '/test/description', name: 'Description', component: () => import('./test/Description.vue') },
+    { path: '/test/tabs', name: 'Tabs', component: () => import('./test/Tabs.vue') },
 ]
